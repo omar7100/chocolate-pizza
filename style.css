@@ -7,7 +7,7 @@
   }
   
   p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
     color: rgb(59, 30, 30);
     font-weight: lighter;
@@ -44,7 +44,7 @@
   }
   
   li {
-    font-family: "comic sans ms";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #666350;
     
@@ -64,15 +64,13 @@
   }
   
   .recipe {
-    background-image: url("img/list-bg.png");
+    background-image: url("https://github.com/codefellows/amman-201d1/blob/master/class-10/lab-a/lab-assets/list-bg.png?raw=true");
     background-repeat: no-repeat;
     margin-bottom: -40px;
     margin-top: 25px
   }
   
-  .footer {
   
-  }
   
   .list {
     position: relative;
@@ -123,7 +121,7 @@
   }
   
   .print-recipe {
-    float: right;
+    
     display: inline-block;
     margin-top: 70px ;
     margin-right: 1px;
