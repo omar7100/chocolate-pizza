@@ -55,6 +55,78 @@
   }
   
   .section {
+  display: block; font-family: 'Patrick Hand', cursive;
+  font-family: 'Yellowtail', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Cormorant Garamond', serif; 
+  /* ---------------- */
+  
+  
+  }
+  
+  p {
+    font-family:  sans-serif;
+    font-size: 1em;
+    color: gray;
+    font-weight: lighter;
+  }
+  
+  h1 {
+      display: block;
+      font-size: 2em;
+      font-family: sans-serif;
+      -webkit-margin-before: 0em;
+      -webkit-margin-after: 0em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+      font-weight: bold;
+      max-width: 500px;
+  }
+  
+  h2 {
+      display: block;
+      font-size: 1em;
+      font-family: sans-serif;
+      -webkit-margin-before: 0em;
+      -webkit-margin-after: 0em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+      font-weight: lighter;
+      color: gray;
+      max-width: 500px;
+  }
+  
+  h5 {
+    display: inline;
+    font-size: .75em;
+    font-family: sans-serif;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    color: gray;
+  }
+  
+  ul {
+    list-style: none;
+    columns: 2;
+    min-height: 305px;
+    padding: 50px 80px 0px 142px;
+  
+  }
+  
+  li {
+    font-family: "comic sans ms";
+    font-size: 20px;
+    color: #666350;
+  }
+  
+  .indent {
+    text-indent: 2.2em;
+  }
+  
+  .section {
   display: block;
   }
   
@@ -121,6 +193,131 @@
   }
   
   .print-recipe {
+    display: inline-block;
+    margin-top: 70px ;
+    margin-right: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .top-wordmark {
+     
+    display: inline;
+    font-family: 'Yellowtail', cursive;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .top-logo {
+    margin-bottom: -10px;
+  }
+  
+  .checkbox[type="checkbox"]{
+    background-color: gray;
+    width: 16px;
+    height: 16px;
+    padding: 0px 20px 0 20px;
+  }
+  
+  .button {
+    float: right;
+    background-color: #BC7058;
+    width: 170px;
+    height: 60px;
+    border: none;
+    color: white;
+    font-size: .85em;
+    font-weight: lighter;
+    margin-top: -75px;
+    padding: 10px;
+  }
+  
+  .gradient {
+    height: 10px;
+    background-color: grey;
+    background-image:
+      linear-gradient(
+        to right,
+          grey, white
+        );
+  }
+  .horizontal-breaks {
+      display: flex;
+  }
+  
+  .footer-break {
+      width: 45%;
+      height: 1px;
+  }
+  footer {
+      text-align: center;
+      color: gray;
+  
+  }
+  }
+  
+  .bodycopy {
+    text-indent: 20px;
+    font-size: 20px;
+  }
+  
+  .recipe {
+    background-image: url("https://github.com/codefellows/amman-201d1/blob/master/class-10/lab-a/lab-assets/list-bg.png?raw=true");
+    background-repeat: no-repeat;
+    margin-bottom: -40px;
+    margin-top: 25px
+  }
+  
+  
+  
+  .list {
+    position: relative;
+  }
+  
+  .biopic{
+    float: left;
+    padding-right: 10px;
+  }
+  
+  .bio {
+    font-size: 20px;
+  }
+  
+  .biocopy {
+    max-width: 730px;
+  }
+  
+  .footer {
+    margin: 100px auto 0px auto;
+    text-align: center;
+    font-size: 15px;
+  
+  }
+  
+  .footerpicture {
+    padding: 0px 0px 15px 0px;
+  }
+  
+  .social-icons{
+    float: right;
+    margin-top: -40px;
+  }
+  
+  .header-logo {
+    max-width: 380px;
+    display: inline;
+    margin-right: auto;
+  }
+  .heading {
+    min-width: 380px;
+  }
+  
+  .hero-title {
+    display: inline-block;
+    max-width: 500px;
+    margin-top: 30px
+  }
+  
+  .print-recipe {
     
     display: inline-block;
     margin-top: 70px ;
@@ -130,14 +327,13 @@
   
   .top-wordmark {
     display: inline;
-    margin-top: 20px;
     font-family: 'Yellowtail', cursive;
     font-size: 32px;
     text-align: center;
   }
   
   .top-logo {
-    margin-bottom: 10px;
+    margin-bottom: -10px;
   }
   
   .checkbox[type="checkbox"]{
